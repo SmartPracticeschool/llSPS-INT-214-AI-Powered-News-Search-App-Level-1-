@@ -38,8 +38,7 @@ This application shows you on how to search massive data sets to mine insight. A
 
 # Procedure
 
-* **Reference**
-  https://drive.google.com/file/d/18ZJanZI2q5zxlUGp1eqEr-9rawiwRshX/view
+* **Reference** https://drive.google.com/file/d/18ZJanZI2q5zxlUGp1eqEr-9rawiwRshX/view
 
 * **Discovery**
 1. Create an IBM cloud account.
@@ -70,8 +69,8 @@ This application shows you on how to search massive data sets to mine insight. A
 ![](Basic%20UI%20output.png)
 
 # Sentimental analysis flow
-* **Reference **
-  https://drive.google.com/file/d/1GMie9-u5IztLwaeUuo7Pt2dIKfUJfAbM/view?usp=sharing
+
+* **Reference** https://drive.google.com/file/d/1GMie9-u5IztLwaeUuo7Pt2dIKfUJfAbM/view?usp=sharing
 
 * **Procedure**
 1. Install node-red-node-sentiment from manage palette
