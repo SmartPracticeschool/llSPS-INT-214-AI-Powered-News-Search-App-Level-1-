@@ -48,14 +48,11 @@ This code pattern shows you how to tap into massive data sets to mine insight. Y
 ## Sample output
 
 The trending page:
-
-![demo](doc/source/images/sample-output-trending.png)
-
-<br>
+![demo](UI output.jpg)
 
 The query page:
 
-![demo](doc/source/images/sample-output-query.png)
+![demo](Slack output.jpg)
 
 <br>
 
