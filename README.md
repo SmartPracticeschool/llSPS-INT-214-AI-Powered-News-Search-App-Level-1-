@@ -136,6 +136,8 @@ user: @newsbot yes
 newsbot: OK searching...
 ```
 
+# Slack output
+
 ![](Slack%20output.jpg)
 
 
