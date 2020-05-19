@@ -25,9 +25,7 @@ This application shows you on how to search massive data sets to mine insight. A
 * **Trending topics in the news**: Identify popular topics over the past 24 hours. Topics can be general, or specific to an industry or category.
 
 ## Flow
-
-![architecture](architecture.png)
-
+![](architecture.png)
 1. The user interacts with the Watson Discovery News Server via the app UI.
 1. User input is processed and routed to the Watson Discovery News Server.
 1. The Watson Discovery News Server sends user requests to the Watson Discovery Service.
@@ -38,24 +36,54 @@ This application shows you on how to search massive data sets to mine insight. A
 
 * [Watson Discovery](https://www.ibm.com/watson/services/discovery/): A cognitive search and content analytics engine for applications to identify patterns, trends, and actionable insights.
 
+# Procedure
+
+* **Reference**
+  https://drive.google.com/file/d/18ZJanZI2q5zxlUGp1eqEr-9rawiwRshX/view
+
+* **Discovery**
+1. Create an IBM cloud account.
+1. Open discovery from IBM cloud catalog.
+1. Select region as London and give an unique service name to create the discovery.
+1. Under services from resource list, open the created discovery.
+1. Click on launch discovery.
+
+
+* **Node Red**
+1. Open node red from IBM cloud catalog.
+1. Select Chennai region and click create.
+1. Once it is created, create a new API key.
+1. Select region as london and change memory allocation to 256 mb, then press create.
+1. Under cloud foundry apps from resource list open the node red app.
+1. Click on visit app url to open Node red editor
+1. Click next until it shows the finish option.
+1. Click finish to open node red flow editor.
+1. From manage palette option, install node-red-dashboard.
+1. Create the flow as given below
+1. In the discovery node, paste the API key by copying it from service credentials of the discovery.
+1. After creating the flow, deploy it.
+1. Open the UI using (node-red-editor link)/ui
+  
+![](Node%20red%20flow.png)
+
+# UI output
+![](Basic%20UI%20output.png)
+
+# Sentimental analysis flow
+1. Install node-red-node-sentiment from manage palette
+1. Create the flow as given below with required coding
+
+![](Sentimental%20analysis%20flow.png)
+
+# Sentimental analysis output
+
+![](UI%20output.jpg)
+
 # Featured technologies
 
 * [Node.js](https://nodejs.org/en/): An asynchronous event driven JavaScript runtime, designed to build scalable applications
 * [Slack](https://slack.com): Slack is a cloud-based set of team collaboration tools and services with chat bot integration
 * [Botkit](https://www.botkit.ai): Framework for creating and managing chat bots
-
-## Sample output
-
-The trending page:
-![demo](UI output.jpg)
-
-<br>
-
-The query page:
-
-![demo](Slack output.jpg)
-
-<br>
 
 # Extra Credit
 
@@ -67,19 +95,15 @@ To integrate a new Slack Bot into your existing Slack team, navigate to `https:/
 
   1. From the **Cutsom Integrations** page, select the **Bots** option.
 
-![slack-integrations](doc/source/images/slack-0.png)
 
   2, To add a new bot, select the **Add Configuration** button.
 
-![slack-integrations](doc/source/images/slack-00.png)
 
   3. Enter a username for the bot and click **Add bot integration**.
 
-![slack-bot-name](doc/source/images/slack-1.png)
 
   4. Once created, save the **API Token** that is generated.
 
-![more-slack-config](doc/source/images/slack-2.png)
 
 ## 2. Configure the application to use the Slack bot
 
@@ -112,7 +136,8 @@ user: @newsbot yes
 newsbot: OK searching...
 ```
 
-![slack](doc/source/images/slack-3.png)
+![](Slack%20output.jpg)
+
 
 # Links
 
