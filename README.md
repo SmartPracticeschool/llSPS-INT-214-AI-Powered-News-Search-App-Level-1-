@@ -159,4 +159,4 @@ Suite of APIs makes it easier for companies to ingest and analyze their data, ev
 
 Click the image for video
 
-[![](Sentimental%20analysis%20flow.png)](https://www.youtube.com/watch?v=bBYNIsFUY4M&feature=youtu.be "Presentation")
+[![](Sentimental%20analysis%20flow.png)](https://youtu.be/QGelmvNx9yg "Presentation")
