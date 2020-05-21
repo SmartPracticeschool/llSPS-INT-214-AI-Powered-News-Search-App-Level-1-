@@ -155,3 +155,6 @@ newsbot: OK searching...
 Suite of APIs makes it easier for companies to ingest and analyze their data, even if they don’t have advanced degrees in data science.
 * [SlideShare: Building with Watson – Network Visualizations using Watson Discovery](https://www.slideshare.net/IBMWatson/building-with-watson-network-visualizations-using-watson-discovery): See an app built on the Watson Discovery Service and D3.js that helps you explore your data using a network map built on NLP metadata.
 
+# Presentation
+
+[![](Sentimental%20analysis%20flow.png)](https://www.youtube.com/watch?v=bBYNIsFUY4M&feature=youtu.be "Presentation")
